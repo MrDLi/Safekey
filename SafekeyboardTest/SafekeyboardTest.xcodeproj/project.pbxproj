@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24320671D795EDB006A1EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C24320661D795EDB006A1EBA /* main.m */; };
+		C243206A1D795EDB006A1EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C24320691D795EDB006A1EBA /* AppDelegate.m */; };
+		C243206D1D795EDB006A1EBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C243206C1D795EDB006A1EBA /* ViewController.m */; };
+		C24320701D795EDB006A1EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C243206E1D795EDB006A1EBA /* Main.storyboard */; };
+		C24320721D795EDB006A1EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24320711D795EDB006A1EBA /* Assets.xcassets */; };
+		C24320751D795EDB006A1EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24320731D795EDB006A1EBA /* LaunchScreen.storyboard */; };
+		C24320801D795EDB006A1EBA /* SafekeyboardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C243207F1D795EDB006A1EBA /* SafekeyboardTestTests.m */; };
+		C243208B1D795EDB006A1EBA /* SafekeyboardTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C243208A1D795EDB006A1EBA /* SafekeyboardTestUITests.m */; };
+		C24320A01D795F1A006A1EBA /* ZXQSafeKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C243209A1D795F1A006A1EBA /* ZXQSafeKeyboard.m */; };
+		C24320A11D795F1A006A1EBA /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C243209D1D795F1A006A1EBA /* CommonTool.m */; };
+		C24320A21D795F1A006A1EBA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = C243209F1D795F1A006A1EBA /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C243207C1D795EDB006A1EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C243205A1D795EDB006A1EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24320611D795EDB006A1EBA;
+			remoteInfo = SafekeyboardTest;
+		};
+		C24320871D795EDB006A1EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C243205A1D795EDB006A1EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24320611D795EDB006A1EBA;
+			remoteInfo = SafekeyboardTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C24320621D795EDB006A1EBA /* SafekeyboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafekeyboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24320661D795EDB006A1EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C24320681D795EDB006A1EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C24320691D795EDB006A1EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C243206B1D795EDB006A1EBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C243206C1D795EDB006A1EBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C243206F1D795EDB006A1EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C24320711D795EDB006A1EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24320741D795EDB006A1EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C24320761D795EDB006A1EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C243207B1D795EDB006A1EBA /* SafekeyboardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafekeyboardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C243207F1D795EDB006A1EBA /* SafekeyboardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafekeyboardTestTests.m; sourceTree = "<group>"; };
+		C24320811D795EDB006A1EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24320861D795EDB006A1EBA /* SafekeyboardTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafekeyboardTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C243208A1D795EDB006A1EBA /* SafekeyboardTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafekeyboardTestUITests.m; sourceTree = "<group>"; };
+		C243208C1D795EDB006A1EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24320991D795F1A006A1EBA /* ZXQSafeKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXQSafeKeyboard.h; sourceTree = "<group>"; };
+		C243209A1D795F1A006A1EBA /* ZXQSafeKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXQSafeKeyboard.m; sourceTree = "<group>"; };
+		C243209C1D795F1A006A1EBA /* CommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		C243209D1D795F1A006A1EBA /* CommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		C243209E1D795F1A006A1EBA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		C243209F1D795F1A006A1EBA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C243205F1D795EDB006A1EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24320781D795EDB006A1EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24320831D795EDB006A1EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24320591D795EDB006A1EBA = {
+			isa = PBXGroup;
+			children = (
+				C24320641D795EDB006A1EBA /* SafekeyboardTest */,
+				C243207E1D795EDB006A1EBA /* SafekeyboardTestTests */,
+				C24320891D795EDB006A1EBA /* SafekeyboardTestUITests */,
+				C24320631D795EDB006A1EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24320631D795EDB006A1EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24320621D795EDB006A1EBA /* SafekeyboardTest.app */,
+				C243207B1D795EDB006A1EBA /* SafekeyboardTestTests.xctest */,
+				C24320861D795EDB006A1EBA /* SafekeyboardTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24320641D795EDB006A1EBA /* SafekeyboardTest */ = {
+			isa = PBXGroup;
+			children = (
+				C24320981D795F1A006A1EBA /* SafeKeyboard */,
+				C243209B1D795F1A006A1EBA /* Tools */,
+				C24320681D795EDB006A1EBA /* AppDelegate.h */,
+				C24320691D795EDB006A1EBA /* AppDelegate.m */,
+				C243206B1D795EDB006A1EBA /* ViewController.h */,
+				C243206C1D795EDB006A1EBA /* ViewController.m */,
+				C243206E1D795EDB006A1EBA /* Main.storyboard */,
+				C24320711D795EDB006A1EBA /* Assets.xcassets */,
+				C24320731D795EDB006A1EBA /* LaunchScreen.storyboard */,
+				C24320761D795EDB006A1EBA /* Info.plist */,
+				C24320651D795EDB006A1EBA /* Supporting Files */,
+			);
+			path = SafekeyboardTest;
+			sourceTree = "<group>";
+		};
+		C24320651D795EDB006A1EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24320661D795EDB006A1EBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C243207E1D795EDB006A1EBA /* SafekeyboardTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C243207F1D795EDB006A1EBA /* SafekeyboardTestTests.m */,
+				C24320811D795EDB006A1EBA /* Info.plist */,
+			);
+			path = SafekeyboardTestTests;
+			sourceTree = "<group>";
+		};
+		C24320891D795EDB006A1EBA /* SafekeyboardTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C243208A1D795EDB006A1EBA /* SafekeyboardTestUITests.m */,
+				C243208C1D795EDB006A1EBA /* Info.plist */,
+			);
+			path = SafekeyboardTestUITests;
+			sourceTree = "<group>";
+		};
+		C24320981D795F1A006A1EBA /* SafeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C24320991D795F1A006A1EBA /* ZXQSafeKeyboard.h */,
+				C243209A1D795F1A006A1EBA /* ZXQSafeKeyboard.m */,
+			);
+			path = SafeKeyboard;
+			sourceTree = "<group>";
+		};
+		C243209B1D795F1A006A1EBA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C243209C1D795F1A006A1EBA /* CommonTool.h */,
+				C243209D1D795F1A006A1EBA /* CommonTool.m */,
+				C243209E1D795F1A006A1EBA /* UIColor+Hex.h */,
+				C243209F1D795F1A006A1EBA /* UIColor+Hex.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C24320611D795EDB006A1EBA /* SafekeyboardTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C243208F1D795EDB006A1EBA /* Build configuration list for PBXNativeTarget "SafekeyboardTest" */;
+			buildPhases = (
+				C243205E1D795EDB006A1EBA /* Sources */,
+				C243205F1D795EDB006A1EBA /* Frameworks */,
+				C24320601D795EDB006A1EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafekeyboardTest;
+			productName = SafekeyboardTest;
+			productReference = C24320621D795EDB006A1EBA /* SafekeyboardTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C243207A1D795EDB006A1EBA /* SafekeyboardTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24320921D795EDB006A1EBA /* Build configuration list for PBXNativeTarget "SafekeyboardTestTests" */;
+			buildPhases = (
+				C24320771D795EDB006A1EBA /* Sources */,
+				C24320781D795EDB006A1EBA /* Frameworks */,
+				C24320791D795EDB006A1EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C243207D1D795EDB006A1EBA /* PBXTargetDependency */,
+			);
+			name = SafekeyboardTestTests;
+			productName = SafekeyboardTestTests;
+			productReference = C243207B1D795EDB006A1EBA /* SafekeyboardTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C24320851D795EDB006A1EBA /* SafekeyboardTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24320951D795EDB006A1EBA /* Build configuration list for PBXNativeTarget "SafekeyboardTestUITests" */;
+			buildPhases = (
+				C24320821D795EDB006A1EBA /* Sources */,
+				C24320831D795EDB006A1EBA /* Frameworks */,
+				C24320841D795EDB006A1EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24320881D795EDB006A1EBA /* PBXTargetDependency */,
+			);
+			name = SafekeyboardTestUITests;
+			productName = SafekeyboardTestUITests;
+			productReference = C24320861D795EDB006A1EBA /* SafekeyboardTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C243205A1D795EDB006A1EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "wu xinglin";
+				TargetAttributes = {
+					C24320611D795EDB006A1EBA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QU2WGM4BT4;
+					};
+					C243207A1D795EDB006A1EBA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QU2WGM4BT4;
+						TestTargetID = C24320611D795EDB006A1EBA;
+					};
+					C24320851D795EDB006A1EBA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QU2WGM4BT4;
+						TestTargetID = C24320611D795EDB006A1EBA;
+					};
+				};
+			};
+			buildConfigurationList = C243205D1D795EDB006A1EBA /* Build configuration list for PBXProject "SafekeyboardTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24320591D795EDB006A1EBA;
+			productRefGroup = C24320631D795EDB006A1EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C24320611D795EDB006A1EBA /* SafekeyboardTest */,
+				C243207A1D795EDB006A1EBA /* SafekeyboardTestTests */,
+				C24320851D795EDB006A1EBA /* SafekeyboardTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24320601D795EDB006A1EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24320751D795EDB006A1EBA /* LaunchScreen.storyboard in Resources */,
+				C24320721D795EDB006A1EBA /* Assets.xcassets in Resources */,
+				C24320701D795EDB006A1EBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24320791D795EDB006A1EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24320841D795EDB006A1EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C243205E1D795EDB006A1EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C243206D1D795EDB006A1EBA /* ViewController.m in Sources */,
+				C24320A21D795F1A006A1EBA /* UIColor+Hex.m in Sources */,
+				C24320A11D795F1A006A1EBA /* CommonTool.m in Sources */,
+				C243206A1D795EDB006A1EBA /* AppDelegate.m in Sources */,
+				C24320671D795EDB006A1EBA /* main.m in Sources */,
+				C24320A01D795F1A006A1EBA /* ZXQSafeKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24320771D795EDB006A1EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24320801D795EDB006A1EBA /* SafekeyboardTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24320821D795EDB006A1EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C243208B1D795EDB006A1EBA /* SafekeyboardTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C243207D1D795EDB006A1EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24320611D795EDB006A1EBA /* SafekeyboardTest */;
+			targetProxy = C243207C1D795EDB006A1EBA /* PBXContainerItemProxy */;
+		};
+		C24320881D795EDB006A1EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24320611D795EDB006A1EBA /* SafekeyboardTest */;
+			targetProxy = C24320871D795EDB006A1EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C243206E1D795EDB006A1EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C243206F1D795EDB006A1EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C24320731D795EDB006A1EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24320741D795EDB006A1EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C243208D1D795EDB006A1EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C243208E1D795EDB006A1EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C24320901D795EDB006A1EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafekeyboardTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxinglin.broadtext.com.cn.SafekeyboardTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C24320911D795EDB006A1EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafekeyboardTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxinglin.broadtext.com.cn.SafekeyboardTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C24320931D795EDB006A1EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafekeyboardTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxinglin.broadtext.com.cn.SafekeyboardTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafekeyboardTest.app/SafekeyboardTest";
+			};
+			name = Debug;
+		};
+		C24320941D795EDB006A1EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafekeyboardTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxinglin.broadtext.com.cn.SafekeyboardTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafekeyboardTest.app/SafekeyboardTest";
+			};
+			name = Release;
+		};
+		C24320961D795EDB006A1EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafekeyboardTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxinglin.broadtext.com.cn.SafekeyboardTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafekeyboardTest;
+			};
+			name = Debug;
+		};
+		C24320971D795EDB006A1EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafekeyboardTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxinglin.broadtext.com.cn.SafekeyboardTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafekeyboardTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C243205D1D795EDB006A1EBA /* Build configuration list for PBXProject "SafekeyboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C243208D1D795EDB006A1EBA /* Debug */,
+				C243208E1D795EDB006A1EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C243208F1D795EDB006A1EBA /* Build configuration list for PBXNativeTarget "SafekeyboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24320901D795EDB006A1EBA /* Debug */,
+				C24320911D795EDB006A1EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C24320921D795EDB006A1EBA /* Build configuration list for PBXNativeTarget "SafekeyboardTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24320931D795EDB006A1EBA /* Debug */,
+				C24320941D795EDB006A1EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C24320951D795EDB006A1EBA /* Build configuration list for PBXNativeTarget "SafekeyboardTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24320961D795EDB006A1EBA /* Debug */,
+				C24320971D795EDB006A1EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C243205A1D795EDB006A1EBA /* Project object */;
+}
